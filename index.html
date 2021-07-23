@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html lang="pr-br">
-
+         
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,400; 0,600; 0,700; 1,400; 1,600; 1,700 & display = swap "rel =" stylesheet ">
+    
  <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
+
+    <style>
+      
+      h1{
+          background-color:#7f4f24;
+          color:white;
+          font-family:Montserrat;
+          border-radius:5px;
+      }
+      h3{
+          color:#936639;
+      }
+      img{
+          border-radius: 56px;;
+      }
+      p{
+          text-align: justify;
+          color:#7f4f24;
+      }
+      .link{
+          background-color:#a4ac86;
+          color:white;
+          font-weight: 400;
+               }
+      .linkinterno{
+          color: white;
+      }
+      .fontelista{
+          color:#582f0e;
+      }
+            body{
+          font-family:Montserrat;
+          background-color:#c2c5aa;
+          
+
+      }
+
+    </style>
  </head>
 
  <body>
-     <ul>
-         <li><a href="#Habilidades">Habilidades</a></li>
-         <li><a href="#Outras habilidades">Outras habilidades</a></li>
+     <ul class="link">
+         <li><a class="linkinterno" href="#Habilidades">Habilidades</a></li>
+         <li><a class="linkinterno" href="#Outras habilidades">Outras habilidades</a></li>
      </ul>
           
   <h1>Iago Mesquita Alves</h1> 
      <img src="WhatsApp Image 2021-07-07 at 18.09.01.jpeg" width="350" alt="Minha foto">
-     <p>Natural de Parnaiba - PI, morei dos 9 aos 26 anos em Contagem -MG. <br> 
-       Atualmente estou em minha cidade natal e aqui, da <i>área de administração</i>,<br> 
-       revolvi migrar para área de programação com o apoio e suporte da <b>Trybe</b>.</p> 
+     <p>Natural de <strong>Parnaiba - PI</strong> ,morei dos 9 aos 26 anos em Contagem -MG. <br> 
+       Atualmente estou em minha cidade natal e aqui, da <em>área de administração</em>,<br> 
+       revolvi <em>migrar para área de programação</em> com o apoio e suporte da <b>Trybe</b>.</p> 
         
-        <a href="https://www.linkedin.com/in/iago-mesquita-bbb8028b/" target="_blank">Linkedin</a><br>
-         <a href="https://github.com/IagoMesquita" target="_blank">GitHub</a>  
-         
+       <div class="link"> 
+          <a class="linkinterno" href="https://www.linkedin.com/in/iago-mesquita-bbb8028b/" target="_blank">Linkedin</a><br>
+          <a class="linkinterno" href="https://github.com/IagoMesquita" target="_blank">GitHub</a>  
+        </div>> 
     
      <h3 id="Habilidades">Habilidades de que mais me orgulho</h3>
-      <ul>
+      <ul class="fontelista">
           <li><b>Comunicação</b></li>
           <li>Resiliênsia</li>
           <li>Empatia</li>
       </ul>
       <h3 id="Outras habilidades">Outras Habilidades</h3>
-       <ul>
+       <ul class="fontelista">
            <li>Unix</li>
            <li>Bash</li>
            <li>GitHub</li>
-           <li> <i>HTML</i> </li>
+           <li>HTML</li>
+           <li>CSS</li>
        </ul>
       
      
