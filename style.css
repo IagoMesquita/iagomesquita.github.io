@@ -1,0 +1,61 @@
+
+body{
+    padding: 3%;
+    
+}
+h1{
+    background-color:#7f4f24;
+    color:white;
+    font-family:Montserrat;
+    border-radius:5px;
+    text-align:center;
+}
+h3{
+    color:#936639;
+}
+img{
+    border-radius: 56px;
+    padding: right 100px;;
+}
+p{
+    text-align: justify;
+    color:#7f4f24;
+        }
+.link{
+    background-color:#a4ac86;
+    color:white;
+    font-weight: 400;
+         }
+.linkinterno{
+    color: white;
+}
+.fontelista{
+    color:#582f0e;
+}
+      body{
+    font-family:Montserrat;
+    background-color:#c2c5aa;
+ 
+}
+
+
+}
+div img{
+  float: left;
+  width: 330px;
+  padding: 10px;
+  background-color:bisque; 
+  
+}
+.imagem-conteiner{
+    height:468px;
+}
+div p{
+    position: absolute;
+    left:470px;
+    top: 350px;
+}
+
+.fontelista li:nth-child(odd){
+    background-color: chartreuse;
+}
